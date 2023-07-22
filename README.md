@@ -59,6 +59,7 @@ conda로 가상환경을 생성한뒤에 magenta 패키지를 설정하는것으
 현재 나의 로컬 환경에는 Nvidia geforce 2060 을 활용할수 있는 GPU 설정이 되어 있었기 때문에 GPU를 사용해서 training을 시킬수 있었다.
 
 - **데이터 다운로드**
+
 코드를 살펴보던중 정확하게 목적에 부합하는 config map을 찾았다.
 "groovae_4bar" config는 groovae midi dataset을 tfds에서 가져와서 학습하도록 이미 세팅되어 있었기에 그대로 config map을 사용하였다.
 명령어는 아래쪽에 기록하였다.
